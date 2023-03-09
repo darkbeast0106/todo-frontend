@@ -1,0 +1,14 @@
+li.ToDoItem {
+    list-style-type: none;
+    label {
+        color: red;
+        font-weight: bold;
+    }
+    &.done{
+        label {
+            text-decoration: line-through;
+            color: grey;
+            font-weight: normal;
+        }
+    }
+}
